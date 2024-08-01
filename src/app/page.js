@@ -99,14 +99,14 @@ export default function Home() {
         <div className='flex flex-wrap justify-evenly mt-[5vmin] gap-[10vmin]'>
 
           <div className=' text-right'>
-            <Image height={400} width={400} className='aspect-video h-screen object-cover' src="/images/still.jpg" alt="" />
+            <Image height={400} width={400} className=' lg:h-screen object-cover  w-full' src="/images/still.jpg" alt="" />
             <h3 className='text-red-600 text-[4vmin] mt-[4vmin]'>Marriage Day</h3>
             <p className='font-normal'>1500G Address</p>
             <p>11:00AM</p>
           </div>
           <div className='w-1 bg-red-500'></div>
           <div className=''>
-            <Image height={400} width={400} className='aspect-video h-screen object-cover' src="/images/shoot2.jpg" alt="" />
+            <Image height={400} width={400} className=' lg:h-screen object-cover' src="/images/shoot2.jpg" alt="" />
             <h3 className='text-red-600 text-[4vmin] mt-[4vmin]'>The Reception</h3>
             <p className='font-normal'>1500G Address</p>
             <p>01:00PM</p>
@@ -136,12 +136,12 @@ export default function Home() {
 
       <footer className='my-20 flex justify-center items-center flex-col mx-[15vmin]'>
         <Title title={"Thank You"}/>
-        <section className='flex flex-wrap justify-center items-center gap-20'>
+        <section className='flex flex-wrap lg:flex-nowrap justify-center items-center gap-20'>
         <div className='mt-6 '>
           <h3 className='font-bold text-4xl mb-4'>Event Handlers</h3>
           <div className='flex lg:flex-row flex-col  items-center gap-6'>
           <Image className='rounded-full ' width={150} height={150} src={"https://instagram.fhyd11-1.fna.fbcdn.net/v/t51.2885-19/448204358_984593266446026_7952747744001668548_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fhyd11-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=DAiNExA7ByIQ7kNvgGGn69d&edm=AEhyXUkBAAAA&ccb=7-5&oh=00_AYCgtNrlSnG5K0Wfgwyre_8P9919veQu7B9qm5WT4TQnKg&oe=66A575DE&_nc_sid=8f1549"} alt=''/>
-          <div className='lg:w-1/2 flex flex-col items-center text-center lg:text-left'>
+          <div className='lg:w-1/2 flex flex-col items-center lg:items-start'>
           <h4 className='font-semibold text-2xl pb-1'>New Events</h4>
             <p className='text-sm text-gray-400 pb-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus ipsam illum optio fugit modi.</p>
             <div className='flex text-gray-600 gap-2 text-base'><FaInstagram /><FaLinkedin /><FaTwitter /><FaFacebook /></div>
