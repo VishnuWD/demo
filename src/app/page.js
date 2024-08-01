@@ -96,7 +96,7 @@ export default function Home() {
         <Title title="Our Wedding Event" />
 
         <p className='font-medium w-3/4 text-center mt-[5vmin]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit repudiandae repellat minima accusamus quisquam illum culpa! Sed officiis ducimus hic reiciendis tempore alias porro autem.</p>
-        <div className='flex justify-evenly mt-[5vmin] gap-[10vmin]'>
+        <div className='flex flex-wrap justify-evenly mt-[5vmin] gap-[10vmin]'>
 
           <div className=' text-right'>
             <Image height={400} width={400} className='aspect-video h-screen object-cover' src="/images/still.jpg" alt="" />
@@ -136,12 +136,12 @@ export default function Home() {
 
       <footer className='my-20 flex justify-center items-center flex-col mx-[15vmin]'>
         <Title title={"Thank You"}/>
-        <section className='flex items-center gap-20'>
+        <section className='flex flex-wrap justify-center items-center gap-20'>
         <div className='mt-6 '>
           <h3 className='font-bold text-4xl mb-4'>Event Handlers</h3>
-          <div className='flex items-center gap-6'>
+          <div className='flex lg:flex-row flex-col  items-center gap-6'>
           <Image className='rounded-full ' width={150} height={150} src={"https://instagram.fhyd11-1.fna.fbcdn.net/v/t51.2885-19/448204358_984593266446026_7952747744001668548_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fhyd11-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=DAiNExA7ByIQ7kNvgGGn69d&edm=AEhyXUkBAAAA&ccb=7-5&oh=00_AYCgtNrlSnG5K0Wfgwyre_8P9919veQu7B9qm5WT4TQnKg&oe=66A575DE&_nc_sid=8f1549"} alt=''/>
-          <div className='w-1/2'>
+          <div className='lg:w-1/2 flex flex-col items-center text-center lg:text-left'>
           <h4 className='font-semibold text-2xl pb-1'>New Events</h4>
             <p className='text-sm text-gray-400 pb-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus ipsam illum optio fugit modi.</p>
             <div className='flex text-gray-600 gap-2 text-base'><FaInstagram /><FaLinkedin /><FaTwitter /><FaFacebook /></div>
@@ -150,7 +150,7 @@ export default function Home() {
           </div>
         </div>
 
-        <hr className='bg-slate-500 w-px h-[30vmin]'/>
+        <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>
 
         <div>
           <h3 className='font-semibold text-3xl'>Need a <span className='text-emerald-600 font-serif'>website </span>like this?</h3>

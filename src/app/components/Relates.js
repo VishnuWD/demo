@@ -6,7 +6,7 @@ function relatives({name ,side}) {
   return (
     <div>
         <h1 className='text-center text-4xl p-7'>{name}</h1>
-      <ul className='flex justify-between gap-10 mb-10'>
+      <ul className='flex justify-center lg:justify-between flex-wrap gap-10 mb-10'>
         {side.map((val, i) => (
           <li key={i} className='flex flex-col items-center'>
             <Image
