@@ -32,7 +32,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center h-full text-white text-center">
           <h2 className="royal text-[13vmin]">Rohan &  Vedha</h2>
           <hr className="w-[50vmin]" />
-          <h1 className="text-[5vmin] pt-8">We're Getting Married</h1>
+          <h1 className="text-[5vmin] pt-8">We&apos;re Getting Married</h1>
           <a href='#youtube' onClick={toggleVideo}>
             <IoPlayCircleOutline className="lg:text-[6vmin] text-[13vmin] mt-6 animate-ping" />
           </a>
@@ -99,14 +99,14 @@ export default function Home() {
         <div className='flex justify-evenly mt-[5vmin] gap-[10vmin]'>
 
           <div className=' text-right'>
-            <img className='aspect-video h-screen object-cover' src="images/still.jpg" alt="" />
+            <Image height={400} width={400} className='aspect-video h-screen object-cover' src="/images/still.jpg" alt="" />
             <h3 className='text-red-600 text-[4vmin] mt-[4vmin]'>Marriage Day</h3>
             <p className='font-normal'>1500G Address</p>
             <p>11:00AM</p>
           </div>
           <div className='w-1 bg-red-500'></div>
           <div className=''>
-            <img className='aspect-video h-screen object-cover' src="images/shoot2.jpg" alt="" />
+            <Image height={400} width={400} className='aspect-video h-screen object-cover' src="/images/shoot2.jpg" alt="" />
             <h3 className='text-red-600 text-[4vmin] mt-[4vmin]'>The Reception</h3>
             <p className='font-normal'>1500G Address</p>
             <p>01:00PM</p>
