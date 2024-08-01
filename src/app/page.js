@@ -95,7 +95,7 @@ export default function Home() {
       <section className='m-[10vmin_5vmin] flex-col flex justify-center items-center font-semibold p-[10vmin]'>
         <Title title="Our Wedding Event" />
 
-        <p className='font-medium w-3/4 text-center mt-[5vmin]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit repudiandae repellat minima accusamus quisquam illum culpa! Sed officiis ducimus hic reiciendis tempore alias porro autem.</p>
+        <p className='font-medium lg:w-3/4 text-center mt-[5vmin]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit repudiandae repellat minima accusamus quisquam illum culpa! Sed officiis ducimus hic reiciendis tempore alias porro autem.</p>
         <div className='flex flex-wrap justify-evenly mt-[5vmin] gap-[10vmin]'>
 
           <div className=' text-right'>
