@@ -22,7 +22,7 @@ export default function Home() {
 
 
   return (
-    <main>
+    <main >
       <section id="Head" className="relative h-screen w-full">
         <Image width={800} height={800}
           className="absolute object-cover bg-center brightness-50 h-screen w-full -z-10"
@@ -136,7 +136,7 @@ export default function Home() {
 
       <footer className='my-20 flex justify-center items-center flex-col mx-[15vmin]'>
         <Title title={"Thank You"}/>
-        <section className='flex flex-wrap lg:flex-nowrap justify-center items-center gap-20'>
+        <section className='flex flex-wrap flex-col lg:flex-row lg:flex-nowrap justify-center items-center gap-8 mt-4'>
         <div className='mt-6 '>
           <h3 className='font-bold text-4xl mb-4'>Event Handlers</h3>
           <div className='flex lg:flex-row flex-col  items-center gap-6'>
@@ -150,6 +150,11 @@ export default function Home() {
           </div>
         </div>
 
+        <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>
+        <div className='flex flex-col justify-center align-middle'>
+        <Image className='' height={200} width={200} src="/Demoqr.png" alt="asdas" />
+        <p className='text-base text-center font-medium'>Scan to Open</p>
+        </div>
         <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>
 
         <div>

@@ -6,6 +6,18 @@
   cursor: default;
 }
 
+/* Target the scrollbar track (the background) */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Target the thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #ec4899;
+}
+
+
+
 @font-face {
     font-family: 'royal';
     src: url(../../public/GreatVibes-Regular.ttf);
@@ -35,3 +47,4 @@
   height: 60vh;
   object-fit: contain;
 }
+
