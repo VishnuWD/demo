@@ -152,7 +152,7 @@ export default function Home() {
 
         <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>
         <div className='flex flex-col justify-center align-middle'>
-        <Image className='' height={200} width={200} src="/Demoqr.png" alt="asdas" />
+        <Image className='' height={200} width={200} src="/demoqr.png" alt="asdas" />
         <p className='text-base text-center font-medium'>Scan to Open</p>
         </div>
         <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>
