@@ -9,6 +9,7 @@ import Title from './components/Title';
 import Slider from './components/Slider';
 import data from './lib/data.';
 import Relates from './components/Relates';
+import Link from 'next/link';
 
 
 
@@ -140,7 +141,7 @@ export default function Home() {
         <div className='mt-6 '>
           <h3 className='font-bold text-4xl mb-4'>Event Handlers</h3>
           <div className='flex lg:flex-row flex-col  items-center gap-6'>
-          <Image className='rounded-full ' width={150} height={150} src={"https://instagram.fhyd11-1.fna.fbcdn.net/v/t51.2885-19/448204358_984593266446026_7952747744001668548_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fhyd11-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=DAiNExA7ByIQ7kNvgGGn69d&edm=AEhyXUkBAAAA&ccb=7-5&oh=00_AYCgtNrlSnG5K0Wfgwyre_8P9919veQu7B9qm5WT4TQnKg&oe=66A575DE&_nc_sid=8f1549"} alt=''/>
+          <Image className='rounded-full ' width={150} height={150} src={"/images/ring.jpg"} alt=''/>
           <div className='lg:w-1/2 flex flex-col items-center lg:items-start'>
           <h4 className='font-semibold text-2xl pb-1'>New Events</h4>
             <p className='text-sm text-gray-400 pb-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus ipsam illum optio fugit modi.</p>
@@ -159,7 +160,7 @@ export default function Home() {
 
         <div>
           <h3 className='font-semibold text-3xl'>Need a <span className='text-emerald-600 font-serif'>website </span>like this?</h3>
-          <button title="Whatsapp direct link" className='bg-emerald-600 text-white rounded-md px-2 py-1 font-medium mt-2'>Click Here</button>
+          <Link href={"https://wa.me/919959607605"} target='_blank' title="Whatsapp direct link" className='bg-emerald-600 text-white rounded-md px-2 py-1 font-medium mt-2'>Click Here</Link>
         </div>
         </section>
       </footer>
