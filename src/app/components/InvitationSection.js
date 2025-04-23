@@ -111,7 +111,7 @@ export default function InvitationSection() {
             </div>
             
             <p className="text-lg text-gray-700 mb-10 italic">
-              "A dream realized, a love celebrated. Join us as we begin our forever together."
+            &quot;A dream realized, a love celebrated. Join us as we begin our forever together.&quot;
             </p>
             
          
@@ -121,9 +121,9 @@ export default function InvitationSection() {
         {/* Traditional blessing */}
         <div className="text-center mt-16 max-w-2xl">
           <p className="text-red-800 text-lg mb-4">
-            <span className="text-2xl">"</span>
+            <span className="text-2xl">&quot;</span>
             May your presence bless our union with love and joy
-            <span className="text-2xl">"</span>
+            <span className="text-2xl">&quot;</span>
           </p>
           <Image 
             src="https://www.svgrepo.com/show/205910/om.svg" 
