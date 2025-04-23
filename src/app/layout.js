@@ -5,7 +5,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Vishnu's Wedding",
-  description: "Welcomes you all!",
+  description: "Welcome you all!",
 };
 
 export default function RootLayout({ children }) {
