@@ -58,9 +58,9 @@ export default function InvitationSection() {
   }, []);
 
   return (
-    <section id="invitation" className="relative py-20 min-h-screen w-full overflow-hidden ">
+    <section id="invitation" className="relative py-20 min-h-screen overflow-hidden ">
       {/* Floating petals container */}
-      <div id="floating-petals" className="pt-screen inset-0 pointer-events-none"></div>
+      <div id="floating-petals" className=" overflow-hidden inset-0 pointer-events-none"></div>
       
       {/* Main content */}
       <div className="container mx-auto px-4 flex flex-col items-center">

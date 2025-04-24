@@ -160,7 +160,7 @@ export default function Home() {
         </div>
       </section>
       
-      <section id='invite' className='relative'>
+      <section id='invite' className='relative overflow-hidden'>
       <InvitationSection/>
 
       </section>
@@ -322,14 +322,14 @@ export default function Home() {
 
         <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>
         <div className='flex flex-col justify-center align-middle'>
-        <Image className='' height={200} width={200} src="/demoqr.png" alt="asdas" />
+        <Image className='' height={200} width={200} src="/qrcode.png" alt="q" />
         <p className='text-base text-center font-medium'>Scan to Open</p>
         </div>
         <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>
 
         <div>
-          <h3 className='font-semibold text-3xl mb-2'>Need a <span className='text-emerald-600 font-serif'>website </span>like this?</h3>
-          <Link href={"https://wa.me/919959607605"} target='_blank' title="Whatsapp direct link" className='bg-emerald-600 text-2xl text-white rounded-md px-2 py-1 font-medium mt-5'>Click Here</Link>
+          <h3 className='font-sans font-bold  text-3xl mb-2'>Need a <span className='text-emerald-600 font-serif'>website </span>like this?</h3>
+          <Link href={"https://wa.me/919959607605"} target='_blank' title="Whatsapp direct link" className='bg-emerald-600 text-2xl text-white cursor-pointer rounded-md px-2 py-1 font-medium mt-5'>Click Here</Link>
         </div>
         </section>
       </footer>

@@ -1,19 +1,29 @@
 const data = {
     groom : [
         {
-            name : "Freddie",
+            name : "Mallesh Yadav",
             photo: "https://randomuser.me/api/portraits/men/42.jpg",
+            relation : "Father"
+        },
+        {
+            name : "Renuka",
+            photo: "https://randomuser.me/api/portraits/women/69.jpg",
+            relation : "Mother"
+        },
+        {
+            name : "Sai Yadav",
+            photo: "https://randomuser.me/api/portraits/men/48.jpg",
             relation : "Brother"
         },
         {
-            name : "Afet",
-            photo: "https://randomuser.me/api/portraits/women/69.jpg",
-            relation : "Friend"
+            name : "Rachana",
+            photo: "https://randomuser.me/api/portraits/men/48.jpg",
+            relation : "Brother's Wife"
         },
         {
-            name : "Kadir",
+            name : "Vyshnavi",
             photo: "https://randomuser.me/api/portraits/men/48.jpg",
-            relation : "Friend"
+            relation : "Brother's Daughter"
         }
     ],
 
@@ -21,17 +31,27 @@ const data = {
         {
             name : "Eleonora",
             photo: "https://randomuser.me/api/portraits/women/42.jpg",
-            relation : "cousin"
+            relation : "Father"
         },
         {
             name : "Luis",
             photo: "https://randomuser.me/api/portraits/men/32.jpg",
-            relation : "Brother"
+            relation : "Mother"
         },
         {
             name : "Borivoje",
             photo: "https://randomuser.me/api/portraits/men/12.jpg",
-            relation : "Friend"
+            relation : "Sister"
+        },
+        {
+            name : "Borivoje",
+            photo: "https://randomuser.me/api/portraits/men/12.jpg",
+            relation : "Sister"
+        },
+        {
+            name : "Borivoje",
+            photo: "https://randomuser.me/api/portraits/men/12.jpg",
+            relation : "Sister"
         }
     ]
 }

@@ -11,6 +11,7 @@
 const nextConfig = {
     images: {
       domains: ['randomuser.me', 'instagram.fhyd11-1.fna.fbcdn.net'],
+      
     },
   };
   

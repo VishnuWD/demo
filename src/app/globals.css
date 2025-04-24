@@ -16,7 +16,14 @@
   background-color: #ec4899;
 }
 
-
+@font-face {
+  font-family: "bo";
+  src: url(../../public/Bohemian-Soul.otf);
+}
+body{
+  font-family: "bo";
+  
+}
 
 @font-face {
     font-family: 'royal';
