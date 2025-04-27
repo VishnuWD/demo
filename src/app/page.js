@@ -156,7 +156,7 @@ export default function Home() {
           {/* <a href='#youtube' onClick={toggleVideo}>
             <IoPlayCircleOutline className="lg:text-[6vmin] text-[13vmin] mt-6 animate-ping" />
           </a> */}
-          <FaAngleDown className="absolute bottom-20 lg:text-[4vmin] text-[10vmin] animate-bounce" />
+          <FaAngleDown className="absolute bottom-30 lg:text-[4vmin] text-[10vmin] animate-bounce" />
         </div>
       </section>
       
