@@ -146,7 +146,7 @@ export default function Home() {
       <section id="Head" className="relative h-screen w-full">
         <Image width={800} height={800}
           className="absolute object-cover bg-center brightness-[45%] h-screen w-full -z-10  rotate-z scale-x-[-1] lg:object-top"
-          src="/images/shoot.jpg"
+          src="/images/shoot.webp"
           alt=""
         />
         <div className="flex flex-col justify-center items-center h-full text-white text-center translate-y-28">
@@ -184,7 +184,7 @@ export default function Home() {
         <Title title="Groom & Bride" />
 
         <div className={`flex flex-col lg:flex-row justify-center items-center gap-[10vmin] w-full lg:h-[50vh] lg:w-4/5 my-[7vmin] p-[2vmin] bg-red-100`}>
-          <Image width={300} height={300} className='lg:w-1/2 h-full object-cover' src="/images/groom.jpeg" alt="" />
+          <Image width={300} height={300} className='lg:w-1/2 h-full object-cover' src="/images/groom.webp" alt="" />
           <div className={`flex flex-col gap-[5vmin] text-left m-[4vmin]`}>
             <h4 className='text-2xl lg:text-[4vmin]'>The Groom</h4>
             <p className='text-wrap font-medium'>MBA Student, Developer, Founder of <a className='underline text-blue-500' href='https://pixelcode.in' target='_blank'>PixelCode.in↗️</a> </p>
@@ -194,7 +194,7 @@ export default function Home() {
         </div>
 
         <div className={`flex flex-col lg:flex-row-reverse justify-center items-center gap-[10vmin] w-full lg:h-[50vh] lg:w-4/5 my-[7vmin] p-[2vmin] bg-red-100`}>
-          <Image width={300} height={300} className='lg:w-1/2 h-full object-cover' src="/images/bride.jpeg" alt="" />
+          <Image width={300} height={300} className='lg:w-1/2 h-full object-cover' src="/images/bride.webp" alt="" />
           <div className={`flex flex-col gap-[5vmin] text-right m-[4vmin]`}>
             <h4 className='text-2xl lg:text-[4vmin]'>The Bride</h4>
             <p className='text-wrap font-medium'>B.Com Graduate</p>
@@ -310,7 +310,7 @@ export default function Home() {
         <div className='mt-6 '>
           <h3 className='font-bold text-4xl mb-4'>Event Handlers</h3>
           <div className='flex lg:flex-row flex-col  items-center gap-6'>
-          <Image className='rounded-full ' width={150} height={150} src={"/images/ring.jpg"} alt=''/>
+          <Image className='rounded-full ' width={150} height={150} src={"/images/ring.webp"} alt=''/>
           <div className='lg:w-1/2 flex flex-col items-center lg:items-start'>
           <h4 className='font-semibold text-2xl pb-1'>New Events</h4>
             <p className='text-sm text-gray-400 pb-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus ipsam illum optio fugit modi.</p>
