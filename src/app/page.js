@@ -309,15 +309,15 @@ export default function Home() {
         <section className='flex flex-wrap flex-col lg:flex-row lg:flex-nowrap justify-center items-center gap-8 mt-4 border-b-2 pb-10'>
         <div className='mt-6 '>
           <h3 className='font-bold text-4xl mb-4'>Event Handlers</h3>
-          <div className='flex lg:flex-row flex-col  items-center gap-6'>
-          <Image className='rounded-full ' width={150} height={150} src={"/images/ring.webp"} alt=''/>
-          <div className='lg:w-1/2 flex flex-col items-center lg:items-start'>
-          <h4 className='font-semibold text-2xl pb-1'>New Events</h4>
-            <p className='text-sm text-gray-400 pb-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus ipsam illum optio fugit modi.</p>
-            <div className='flex text-gray-600 gap-2 text-base'><FaInstagram /><FaLinkedin /><FaTwitter /><FaFacebook /></div>
+            <div className='flex lg:flex-row flex-col  gap-6'>
+              <Image className='rounded-full ' width={150} height={150} src={"/images/ring.webp"} alt=''/>
+              <div className='lg:w-1/2 flex flex-col items-start'>
+                <h4 className='font-semibold text-2xl pb-1'>New Events</h4>
+                  <p className='text-sm text-gray-400 pb-2'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus ipsam illum optio fugit modi.</p>
+                  <div className='flex text-gray-600 gap-2 text-base'><FaInstagram /><FaLinkedin /><FaTwitter /><FaFacebook /></div>
 
-          </div>
-          </div>
+              </div>
+            </div>
         </div>
 
         <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>

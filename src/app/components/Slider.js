@@ -69,10 +69,10 @@ export default function Slider() {
           <Image width={500} height={500} src="/images/family2.webp" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family3.jpeg" alt=""/>
+          <Image width={500} height={500} src="/images/family3.webp" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family4.jpeg" alt=""/>
+          <Image width={500} height={500} src="/images/family4.webp" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
           <Image width={500} height={500} src="/images/family5.webp" alt=""/>
