@@ -59,33 +59,31 @@ export default function Slider() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper mt-[8vmin]"
       > 
-        <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
+      <SwiperSlide>
+          <Image width={500} height={500} src="/images/pose.webp" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
+          <Image width={500} height={500} src="/images/family.webp" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
+          <Image width={500} height={500} src="/images/family2.webp" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
+          <Image width={500} height={500} src="/images/family3.jpeg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
+          <Image width={500} height={500} src="/images/family4.jpeg" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
+          <Image width={500} height={500} src="/images/family5.webp" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
+          <Image width={500} height={500} src="/images/family6.webp" alt=""/>
         </SwiperSlide>
         <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
+          <Image width={500} height={500} src="/images/family7.webp" alt=""/>
         </SwiperSlide>
-        <SwiperSlide>
-          <Image width={500} height={500} src="/images/family.jpg" alt=""/>
-        </SwiperSlide>
+    
       </Swiper>
     </>
   );

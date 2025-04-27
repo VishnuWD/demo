@@ -33,7 +33,7 @@ export default function Home() {
   
     useEffect(() => {
       // Countdown timer
-      const weddingDate = new Date("2025-05-08T10:00:00").getTime();
+      const weddingDate = new Date("2025-05-08T09:35:00").getTime();
       
       const updateCountdown = () => {
         const now = new Date().getTime();
@@ -145,11 +145,11 @@ export default function Home() {
     <main >
       <section id="Head" className="relative h-screen w-full">
         <Image width={800} height={800}
-          className="absolute object-cover bg-center brightness-50 h-screen w-full -z-10"
+          className="absolute object-cover bg-center brightness-[45%] h-screen w-full -z-10  rotate-z scale-x-[-1] lg:object-top"
           src="/images/shoot.jpg"
           alt=""
         />
-        <div className="flex flex-col justify-center items-center h-full text-white text-center">
+        <div className="flex flex-col justify-center items-center h-full text-white text-center translate-y-28">
           <h2 className="royal text-[13vmin]">Vishnu 💝Shirisha</h2>
           <hr className="w-[50vmin]" />
           <h1 className="text-[5vmin] pt-8">We&apos;re Getting Married</h1>
@@ -184,21 +184,21 @@ export default function Home() {
         <Title title="Groom & Bride" />
 
         <div className={`flex flex-col lg:flex-row justify-center items-center gap-[10vmin] w-full lg:h-[50vh] lg:w-4/5 my-[7vmin] p-[2vmin] bg-red-100`}>
-          <Image width={300} height={300} className='lg:w-1/2 h-full object-cover' src="/images/groom.jpg" alt="" />
+          <Image width={300} height={300} className='lg:w-1/2 h-full object-cover' src="/images/groom.jpeg" alt="" />
           <div className={`flex flex-col gap-[5vmin] text-left m-[4vmin]`}>
             <h4 className='text-2xl lg:text-[4vmin]'>The Groom</h4>
             <p className='text-wrap font-medium'>MBA Student, Developer, Founder of <a className='underline text-blue-500' href='https://pixelcode.in' target='_blank'>PixelCode.in↗️</a> </p>
-            <h3 className=' text-4xl font-extrabold leading-snug text-red-500'>Tekumatla Vishnu</h3>
-            <div className='flex gap-5 lg:text-[3vmin] text-[5vmin]'> <a href='' target='_blank'></a> <FaInstagram /><FaLinkedin /><FaTwitter /><FaFacebook /></div>
+            <h3 className=' text-4xl font-extrabold leading-snug text-red-500'><span className='font-serif text-2xl font-semibold italic'>chi.</span> Vishnu</h3>
+            <div className='flex gap-5 lg:text-[3vmin] text-[5vmin]'> <a href='https://www.instagram.com/thevishnuig/' target='_blank'><FaInstagram /></a> <a href='https://www.linkedin.com/in/vishnu-yadav-fwd/' target='_blank'><FaLinkedin /></a><FaTwitter /><FaFacebook /></div>
           </div>
         </div>
 
         <div className={`flex flex-col lg:flex-row-reverse justify-center items-center gap-[10vmin] w-full lg:h-[50vh] lg:w-4/5 my-[7vmin] p-[2vmin] bg-red-100`}>
-          <Image width={300} height={300} className='lg:w-1/2 h-full object-cover' src="/images/bride.jpg" alt="" />
+          <Image width={300} height={300} className='lg:w-1/2 h-full object-cover' src="/images/bride.jpeg" alt="" />
           <div className={`flex flex-col gap-[5vmin] text-right m-[4vmin]`}>
             <h4 className='text-2xl lg:text-[4vmin]'>The Bride</h4>
             <p className='text-wrap font-medium'>B.Com Graduate</p>
-            <h3 className=' text-4xl font-extrabold leading-snug text-red-500'>Tekumatla Shirisha</h3>
+            <h3 className=' text-4xl font-extrabold leading-snug text-red-500'><span className='font-serif text-2xl font-semibold italic'>chi.La.Sow.</span> Shirisha</h3>
 
             {/* <div className='flex gap-5 lg:text-[3vmin] text-[5vmin] justify-end'><FaInstagram /><FaLinkedin /><FaTwitter /><FaFacebook /></div> */}
 
@@ -261,18 +261,18 @@ export default function Home() {
         <div className='flex flex-wrap justify-evenly mt-[5vmin] gap-[10vmin]'>
 
           <div className=' text-right'>
-            <Image height={400} width={400} className=' lg:h-screen object-cover  w-full' src="/images/still.jpg" alt="" />
+            <Image height={400} width={400} className=' lg:h-screen object-cover  w-full' src="/images/still.webp" alt="" />
             <h3 className='text-red-600 lg:text-[4vmin] text-[7vmin] mt-[4vmin]'>Marriage Day</h3>
             <p className='font-normal'><span className='font-bold'>Address:</span>  Annapurna Function Halls Near ASM College Line in Warangal City</p>
-            <p>10:00AM</p>
+            <p>9:35AM</p>
           </div>
           <div className='w-1 bg-red-500'></div>
           <div className=''>
-            <Image height={400} width={400} className=' lg:h-screen object-cover' src="/images/shoot2.jpg" alt="" />
+            <Image height={400} width={400} className=' lg:h-screen object-cover blur-[2px]' src="/images/shoot2.webp" alt="" />
             <h3 className='text-red-600 lg:text-[4vmin] text-[7vmin] mt-[4vmin]'>The Reception</h3>
             <p className='font-normal'><span className='font-bold'>Address:</span>  Annapurna Function Halls Near ASM College Line in Warangal City</p>
 
-            <p>01:00PM</p>
+            <p>12:00PM</p>
           </div>
         </div>
 
@@ -306,7 +306,7 @@ export default function Home() {
 
       <footer className='my-20 flex justify-center items-center flex-col mx-[15vmin]'>
         <Title title={"Thank You"}/>
-        <section className='flex flex-wrap flex-col lg:flex-row lg:flex-nowrap justify-center items-center gap-8 mt-4'>
+        <section className='flex flex-wrap flex-col lg:flex-row lg:flex-nowrap justify-center items-center gap-8 mt-4 border-b-2 pb-10'>
         <div className='mt-6 '>
           <h3 className='font-bold text-4xl mb-4'>Event Handlers</h3>
           <div className='flex lg:flex-row flex-col  items-center gap-6'>
@@ -327,11 +327,13 @@ export default function Home() {
         </div>
         <hr className='bg-slate-500 h-px w-[30vmin] lg:w-px lg:h-[30vmin]'/>
 
-        <div>
-          <h3 className='font-sans font-bold  text-3xl mb-2'>Need a <span className='text-emerald-600 font-serif'>website </span>like this?</h3>
+       
+        </section>
+         <div className='lg:flex items-end mt-16'>
+          <Image className='-translate-x-2' src="https://pixelcode.in/website%20llogo.svg" height={100} width={100}></Image>
+          <h3 className='font-sans font-bold  text-3xl mr-4 my-4 lg:my-0'>Need a <span className='text-emerald-600 font-serif'>website </span>like this?</h3>
           <Link href={"https://wa.me/919959607605"} target='_blank' title="Whatsapp direct link" className='bg-emerald-600 text-2xl text-white cursor-pointer rounded-md px-2 py-1 font-medium mt-5'>Click Here</Link>
         </div>
-        </section>
       </footer>
 
     </main>
