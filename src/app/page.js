@@ -156,8 +156,12 @@ export default function Home() {
           {/* <a href='#youtube' onClick={toggleVideo}>
             <IoPlayCircleOutline className="lg:text-[6vmin] text-[13vmin] mt-6 animate-ping" />
           </a> */}
-          <FaAngleDown className="absolute lg:bottom-40 bottom-52 lg:text-[4vmin] text-[10vmin] animate-bounce" />
+          <div className='absolute lg:bottom-40 bottom-48 flex flex-col items-center'>
+
+          <FaAngleDown className="lg:text-[4vmin] text-[10vmin] animate-bounce" />
+          <h6 className='font-normal'>Scroll Down</h6>
         </div>
+          </div>
       </section>
       
       <section id='invite' className='relative overflow-hidden'>

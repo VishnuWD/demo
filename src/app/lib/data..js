@@ -29,7 +29,7 @@ const data = {
 
     bride : [
         {
-            name : "Ramachandru Yadav",
+            name : "Ramachandru",
             photo: "/images/avatar/b1.webp",
             relation : "Father"
         },
@@ -57,6 +57,16 @@ const data = {
             name : "Sony",
             photo: "/images/avatar/b6.webp",
             relation : "Younger Sister"
+        },
+        {
+            name : "Vrishank",
+            photo: "/images/avatar/b7.webp",
+            relation : "nephew"
+        },
+        {
+            name : "Manushri",
+            photo: "/images/avatar/b8.webp",
+            relation : "Niece"
         }
     ]
 }
