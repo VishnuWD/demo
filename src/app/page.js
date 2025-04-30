@@ -143,12 +143,7 @@ export default function Home() {
 
   return (
     <main >
-      <script src="https://www.google.com/recaptcha/api.js"></script>
-       {
-   function onSubmit(token) {
-     document.getElementById("demo-form").submit();
-   }
-  }
+  
       <section id="Head" className="relative h-screen w-full">
         <Image width={800} height={800}
           className="absolute object-cover bg-center brightness-[45%] h-screen w-full -z-10  rotate-z scale-x-[-1] lg:object-top"
