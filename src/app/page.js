@@ -217,7 +217,7 @@ export default function Home() {
         </div>
 
         <button 
-          onClick={createConfetti}
+          
           className="mt-12 bg-yellow-400 hover:bg-yellow-500 text-red-800 font-bold py-3 px-8 rounded-full transition duration-300 flex items-center mx-auto transform hover:scale-105 shadow-lg"
         >
           Celebrate With Us!
