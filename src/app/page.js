@@ -52,11 +52,11 @@ export default function Home() {
         });
   
         // Trigger confetti when reaching certain milestones
-        if (distance > 0) {
-          if (days === 30 || days === 7 || days === 1 || hours === 1) {
-            createConfetti();
-          }
-        }
+        // if (distance > 0) {
+        //   if (days === 30 || days === 7 || days === 1 || hours === 1) {
+        //     createConfetti();
+        //   }
+        // }
       };
       
       const timer = setInterval(updateCountdown, 1000);
@@ -66,23 +66,23 @@ export default function Home() {
     }, []);
   
     // Confetti function
-    const createConfetti = () => {
-      const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', 
-                     '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', 
-                     '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722'];
+    // const createConfetti = () => {
+    //   const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', 
+    //                  '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', 
+    //                  '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722'];
       
-      for (let i = 0; i < 25; i++) {
-        const confetti = document.createElement('div');
-        confetti.className = 'confetti';
-        confetti.style.left = Math.random() * 100 + 'vw';
-        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-        confetti.style.width = Math.random() * 10 + 5 + 'px';
-        confetti.style.height = Math.random() * 10 + 5 + 'px';
-        confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
-        confetti.style.animationDelay = Math.random() * 5 + 's';
-        document.getElementById('confetti-container')?.appendChild(confetti);
-      }
-    };
+    //   for (let i = 0; i < 25; i++) {
+    //     const confetti = document.createElement('div');
+    //     confetti.className = 'confetti';
+    //     confetti.style.left = Math.random() * 100 + 'vw';
+    //     confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+    //     confetti.style.width = Math.random() * 10 + 5 + 'px';
+    //     confetti.style.height = Math.random() * 10 + 5 + 'px';
+    //     confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
+    //     confetti.style.animationDelay = Math.random() * 5 + 's';
+    //     document.getElementById('confetti-container')?.appendChild(confetti);
+    //   }
+    // };
   
     // Floating elements
     useEffect(() => {
@@ -116,15 +116,15 @@ export default function Home() {
           75% { transform: translate(20px, 20px) rotate(270deg); }
           100% { transform: translate(0, 0) rotate(360deg); }
         }
-        .confetti {
-          position: fixed;
-          width: 10px;
-          height: 10px;
-          opacity: 0.7;
-          animation: fall linear infinite;
-          z-index: 9999;
-          pointer-events: none;
-        }
+        // .confetti {
+        //   position: fixed;
+        //   width: 10px;
+        //   height: 10px;
+        //   opacity: 0.7;
+        //   animation: fall linear infinite;
+        //   z-index: 9999;
+        //   pointer-events: none;
+        // }
         @keyframes fall {
           to { transform: translateY(100vh) rotate(360deg); }
         }
@@ -143,6 +143,7 @@ export default function Home() {
 
   return (
     <main >
+  
       <section id="Head" className="relative h-screen w-full">
         <Image width={800} height={800}
           className="absolute object-cover bg-center brightness-[45%] h-screen w-full -z-10  rotate-z scale-x-[-1] lg:object-top"
@@ -213,7 +214,7 @@ export default function Home() {
 
       <section className="relative py-20 bg-gradient-to-b from-red-500 to-pink-600 overflow-hidden">
       {/* Confetti container */}
-      <div id="confetti-container" className="fixed inset-0 pointer-events-none z-0"></div>
+      {/* <div id="confetti-container" className="fixed inset-0 pointer-events-none z-0"></div> */}
       
       <div className="container mx-auto px-4 text-center text-white">
         <h2 className="text-3xl md:text-4xl font-bold mb-8">Counting Down to Our Big Day</h2>
@@ -238,7 +239,7 @@ export default function Home() {
         </div>
 
         <button 
-          onClick={createConfetti}
+          // onClick={createConfetti}
           className="mt-12 bg-yellow-400 hover:bg-yellow-500 text-red-800 font-bold py-3 px-8 rounded-full transition duration-300 flex items-center mx-auto transform hover:scale-105 shadow-lg"
         >
           Celebrate With Us!
