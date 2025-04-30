@@ -52,7 +52,12 @@ export default function Home() {
         });
   
         // Trigger confetti when reaching certain milestones
-        
+        if (distance > 0) {
+          if (days === 30 || days === 7 || days === 1 || hours === 1) {
+            createConfetti();
+          }
+        }
+      };
       
       const timer = setInterval(updateCountdown, 1000);
       updateCountdown();
@@ -61,7 +66,23 @@ export default function Home() {
     }, []);
   
     // Confetti function
-    
+    const createConfetti = () => {
+      const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', 
+                     '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', 
+                     '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722'];
+      
+      for (let i = 0; i < 25; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.left = Math.random() * 100 + 'vw';
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.width = Math.random() * 10 + 5 + 'px';
+        confetti.style.height = Math.random() * 10 + 5 + 'px';
+        confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
+        confetti.style.animationDelay = Math.random() * 5 + 's';
+        document.getElementById('confetti-container')?.appendChild(confetti);
+      }
+    };
   
     // Floating elements
     useEffect(() => {
@@ -217,7 +238,7 @@ export default function Home() {
         </div>
 
         <button 
-          
+          onClick={createConfetti}
           className="mt-12 bg-yellow-400 hover:bg-yellow-500 text-red-800 font-bold py-3 px-8 rounded-full transition duration-300 flex items-center mx-auto transform hover:scale-105 shadow-lg"
         >
           Celebrate With Us!
