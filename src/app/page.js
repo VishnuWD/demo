@@ -52,12 +52,7 @@ export default function Home() {
         });
   
         // Trigger confetti when reaching certain milestones
-        if (distance > 0) {
-          if (days === 30 || days === 7 || days === 1 || hours === 1) {
-            createConfetti();
-          }
-        }
-      };
+        
       
       const timer = setInterval(updateCountdown, 1000);
       updateCountdown();
