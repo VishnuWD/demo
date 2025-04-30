@@ -66,23 +66,7 @@ export default function Home() {
     }, []);
   
     // Confetti function
-    const createConfetti = () => {
-      const colors = ['#f44336', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5', 
-                     '#2196f3', '#03a9f4', '#00bcd4', '#009688', '#4CAF50', 
-                     '#8BC34A', '#CDDC39', '#FFEB3B', '#FFC107', '#FF9800', '#FF5722'];
-      
-      for (let i = 0; i < 25; i++) {
-        const confetti = document.createElement('div');
-        confetti.className = 'confetti';
-        confetti.style.left = Math.random() * 100 + 'vw';
-        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-        confetti.style.width = Math.random() * 10 + 5 + 'px';
-        confetti.style.height = Math.random() * 10 + 5 + 'px';
-        confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
-        confetti.style.animationDelay = Math.random() * 5 + 's';
-        document.getElementById('confetti-container')?.appendChild(confetti);
-      }
-    };
+    
   
     // Floating elements
     useEffect(() => {
