@@ -116,15 +116,15 @@ export default function Home() {
           75% { transform: translate(20px, 20px) rotate(270deg); }
           100% { transform: translate(0, 0) rotate(360deg); }
         }
-        .confetti {
-          position: fixed;
-          width: 10px;
-          height: 10px;
-          opacity: 0.7;
-          animation: fall linear infinite;
-          z-index: 9999;
-          pointer-events: none;
-        }
+        // .confetti {
+        //   position: fixed;
+        //   width: 10px;
+        //   height: 10px;
+        //   opacity: 0.7;
+        //   animation: fall linear infinite;
+        //   z-index: 9999;
+        //   pointer-events: none;
+        // }
         @keyframes fall {
           to { transform: translateY(100vh) rotate(360deg); }
         }
@@ -219,7 +219,7 @@ export default function Home() {
 
       <section className="relative py-20 bg-gradient-to-b from-red-500 to-pink-600 overflow-hidden">
       {/* Confetti container */}
-      <div id="confetti-container" className="fixed inset-0 pointer-events-none z-0"></div>
+      {/* <div id="confetti-container" className="fixed inset-0 pointer-events-none z-0"></div> */}
       
       <div className="container mx-auto px-4 text-center text-white">
         <h2 className="text-3xl md:text-4xl font-bold mb-8">Counting Down to Our Big Day</h2>
